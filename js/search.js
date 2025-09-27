@@ -30,7 +30,7 @@ const displayCountry = (meals)=>{
     meals.forEach((meal) => {
         const card = document.createElement("div");
         card.innerHTML = `
-        <div class="mx-4 rounded-sm border-solid border-2 border-gray-100 shadow-lg">
+        <div class="mx-6 rounded-sm border-solid border-2 border-gray-100 shadow-lg">
         <div><img class="rounded" src="${meal.strMealThumb}"/></div>
         <div><h2 class="text-xl p-4 font-bold text-center">${meal.strMeal}</h2></div>
         
