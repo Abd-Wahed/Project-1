@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- tailwind -->
+   <script src="https://cdn.tailwindcss.com"></script>
+
+   <!-- daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="" >
+    <main class="flex flex-col justify-center items-center  h-fit">
+      <h1 class="text-3xl pt-32 text-black-500 p-8 text-center">
+        Get food list based on Country
+      </h1>
+      <div class="input-wrapper flex ">
+        <input type="text" id="input" class=" outline-2 outline-gray-300 rounded-xl mx-4" placeholder="Country" autocomplete="off">
+        <button id="searchbtn"  class=" btn bg-gray-600 px-6 py-4 rounded-xl text-white" > Search </button>
+      </div>
+      <!-- card container -->
+      <div  id="container" class="py-[5vw] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
+        
+      </div>
+    </main>
+
+    <script src="js/search.js"></script>
+
+</body>
+</html>
