@@ -18,8 +18,6 @@ const loadCountry = ()=>{
 };
 
 
-
-
 const displayCountry = (meals)=>{
     //  container.innerHTML = "";
     console.log("displayhoccenh",meals);
